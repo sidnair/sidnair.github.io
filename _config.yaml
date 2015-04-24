@@ -1,1 +1,1 @@
-exclude: [Gemfile*, Makefile, README.md]
+exclude: [Gemfile*, Makefile, README.md, CNAME]
