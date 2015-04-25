@@ -16,7 +16,7 @@ body {
   background-size: cover;
   height: 100%;
   left: 0;
-  padding: 4%;
+  padding: 0 4%;
   position: absolute;
   top: 0;
   width: 100%;
@@ -34,7 +34,10 @@ a:visited {
 a:hover {color: #6aa;}
 
 .content {
+  height: 100%;
   max-width: 600px;
+  overflow-y: scroll;
+  padding: 4% 0;
   width: 100%;
 }
 
