@@ -23,8 +23,11 @@ body {
   width: 100%;
 }
 
-h1,
+h1 {margin: 0 0 20px;}
+
 p {margin: 20px 0;}
+
+p:last-child{margin-bottom: 0;}
 
 a,
 a:visited {
@@ -35,7 +38,10 @@ a:visited {
 a:hover {color: #6aa;}
 
 .content {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
   max-width: 600px;
+  padding: 15px 20px;
   width: 100%;
 }
 
