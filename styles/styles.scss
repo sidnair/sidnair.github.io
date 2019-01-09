@@ -75,8 +75,10 @@ ul {
   background: $content-background-color;
   box-shadow: 0 .2rem .5rem 0 rgba(0, 0, 0, 0.2);
   margin: 0 auto;
+  max-width: 80rem;
+  min-width: 40rem;
   padding: $large-spacing 0;
-  width: 80rem;
+  width: 100%;
 
   & > * { padding: 0 $large-spacing; }
 
