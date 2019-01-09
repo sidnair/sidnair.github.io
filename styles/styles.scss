@@ -33,11 +33,9 @@ html {
 }
 
 body {
-  background: $background-color;
   color: $text-color;
   font-size: $default-font-size;
   font-family: 'Helvetica Neue';
-  margin: 5rem;
 }
 
 h1 {
@@ -71,14 +69,43 @@ ul {
   }
 }
 
-.content {
-  background: $content-background-color;
-  box-shadow: 0 .2rem .5rem 0 rgba(0, 0, 0, 0.2);
+.background {
+  background-color: #abc;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.contentWrapper {
   margin: 0 auto;
   max-width: 80rem;
   min-width: 40rem;
-  padding: $large-spacing 0;
+  position: relative;
   width: 100%;
+  z-index: 2;
+}
+
+@media all and (min-width: 1160px) {
+  .background {
+    background-image: url('/assets/img/background.jpg');
+    background-size: cover;
+  }
+
+  .contentWrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.content {
+  background: $content-background-color;
+  box-shadow: 0 .2rem .5rem 0 rgba(0, 0, 0, 0.2);
+  margin: 5rem;
+  padding: $large-spacing 0;
 
   & > * { padding: 0 $large-spacing; }
 
