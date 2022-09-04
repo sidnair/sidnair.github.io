@@ -69,14 +69,8 @@ ol {
   }
 }
 
-.background {
+html {
   background-color: #abc;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1;
 }
 
 .contentWrapper {
@@ -89,10 +83,11 @@ ol {
 }
 
 @media all and (min-width: 1160px) {
-  .background {
-    background-image: url('/assets/img/background.jpg');
+  html {
+    background: url('/assets/img/background.jpg') no-repeat top left fixed;
     background-size: cover;
   }
+
   .contentWrapper {
     position: absolute;
     top: 0;
