@@ -11,8 +11,8 @@ $divider-text-color: #fff;
 $divider-background-color: #5b90ce;
 
 $h1-font-size: 2.4rem;
-$default-font-size: 1.6rem;
-$small-font-size: 1.4rem;
+$default-font-size: 1.8rem;
+$small-font-size: 1.6rem;
 
 $small-spacing: 1rem;
 $large-spacing: 2.4rem;
@@ -36,6 +36,7 @@ body {
   color: $text-color;
   font-family: 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
   font-size: $default-font-size;
+  line-height: 1.4;
 }
 
 h1 {
@@ -54,11 +55,10 @@ a:visited {
 }
 
 p {
-  line-height: 1.2em;
   margin: 0 0 $small-spacing;
 }
 
-ul {
+ol {
   margin: 0;
 
   & > li {
@@ -93,7 +93,6 @@ ul {
     background-image: url('/assets/img/background.jpg');
     background-size: cover;
   }
-
   .contentWrapper {
     position: absolute;
     top: 0;
@@ -120,16 +119,11 @@ ul {
     width: 100%;
   }
 
-  .time {
-    color: $secondary-text-color;
+  .roles {
     font-size: $small-font-size;
-
-    &:before { content: '('; }
-    &:after { content: ')'; }
   }
 
-  p.description {
-    font-size: $small-font-size;
-    margin-top: $small-spacing;
+  .time {
+    color: $secondary-text-color;
   }
 }
