@@ -1,0 +1,100 @@
+---
+---
+
+$text-color: #222;
+$secondary-text-color: #999;
+$link-color: #4af;
+$link-hover-color: #6aa;
+$content-background-color: #fff;
+$divider-text-color: #fff;
+$divider-background-color: #5b90ce;
+
+$h1-font-size: 3.2rem;
+$h2-font-size: 2.4rem;
+$default-font-size: 1.8rem;
+$small-font-size: 1.6rem;
+
+$small-spacing: 1rem;
+$large-spacing: 2.4rem;
+
+$piece-margin: 40px;
+
+/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $text-color;
+  font-family: 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
+  font-size: $default-font-size;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  margin-right: 20px;
+  margin-bottom: $piece-margin;
+  display: inline-block;
+}
+
+h2 {
+  font-weight: normal;
+  display: inline-block;
+}
+
+a,
+a:visited {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+  & > li {
+    list-style-type: none;
+    margin: 0 0 $piece-margin;
+    &:last-child { margin: 0; }
+  }
+}
+
+body {
+  padding: 20px;
+}
+
+.piece {
+  & > div {
+    display: inline-block;
+
+    img {
+      max-width: 600px;
+      margin-bottom: 10px;
+      margin-right: 20px;
+      border-radius: 3px;
+    }
+
+    p {
+      font-style: italic;
+    }
+  }
+}

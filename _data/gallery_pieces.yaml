@@ -1,0 +1,24 @@
+- name: Small moon jar
+  material: Porcelain
+  dimensions: 8" x 6"
+  images: [orange-vase-2.jpg, orange-vase-1.jpg]
+- name: Small cup
+  material: Porcelain
+  dimensions: 4" x 4"
+  images: [blue-cup-1.jpg, blue-cup-2.jpg]
+- name: Saggar-fired shino cup
+  material: Porcelain
+  dimensions: 4" x 4"
+  images: [shino1a.jpg, shino2a.jpg]
+- name: Saggar-fired shino cup
+  material: Porcelain
+  dimensions: 4" x 4"
+  images: [shino1b.jpg, shino2b.jpg]
+- name: Round bottle
+  material: Stoneware
+  dimensions: 10" x 7"
+  images: [round-bottle-1.jpg]
+- name: Shino Plate
+  material: Stoneware
+  dimensions: 8" x 8"
+  images: [shino-plate-1.jpg]
