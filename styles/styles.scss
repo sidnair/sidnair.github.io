@@ -70,7 +70,7 @@ ol {
 }
 
 html {
-  background-color: #abc;
+  background-color: #ccccb9;
 }
 
 .contentWrapper {
@@ -84,14 +84,14 @@ html {
 
 @media all and (min-width: 1160px) {
   html {
-    background: url('/assets/img/background.jpg') no-repeat top left fixed;
+    background: url('/assets/img/pasadena-portrait-cropped.jpg') no-repeat top left fixed;
     background-size: cover;
   }
 
   .contentWrapper {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
   }
 }
 
