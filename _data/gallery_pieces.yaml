@@ -1,24 +1,56 @@
-- name: Small moon jar
-  material: Porcelain
-  dimensions: 8" x 6"
-  images: [orange-vase-2.jpg, orange-vase-1.jpg]
-- name: Small cup
-  material: Porcelain
-  dimensions: 4" x 4"
-  images: [blue-cup-1.jpg, blue-cup-2.jpg]
-- name: Saggar-fired shino cup
-  material: Porcelain
-  dimensions: 4" x 4"
-  images: [shino1a.jpg, shino2a.jpg]
-- name: Saggar-fired shino cup
-  material: Porcelain
-  dimensions: 4" x 4"
-  images: [shino1b.jpg, shino2b.jpg]
-- name: Round bottle
-  material: Stoneware
-  dimensions: 10" x 7"
-  images: [round-bottle-1.jpg]
-- name: Shino Plate
-  material: Stoneware
-  dimensions: 8" x 8"
-  images: [shino-plate-1.jpg]
+- name: Brushstroke porcelain
+  pieces:
+  - name: Tall blue-green brushstroke moon jar
+    material: Porcelain
+    dimensions: 17" x 11"
+    images: [tall-bg-1.jpg, tall-bg-2.jpg, tall-bg-3.jpg]
+  - name: Tall orange brushstroke moon jar
+    material: Porcelain
+    dimensions: 12" x 9"
+    images: [tall-orange-1.jpg, tall-orange-2.jpg, tall-orange-3.jpg]
+  - name: Wide blue-green brushstroke moon jar
+    material: Porcelain
+    dimensions: 11" x 10"
+    images: [wide-bg-2.jpg, wide-bg-1.jpg, wide-bg-3.jpg, wide-bg-4.jpg]
+  - name: Large light blue brushstroke moon jar
+    material: Porcelain
+    dimensions: 12" x 10"
+    images: [wide-lb-1.jpg, wide-lb-2.jpg, wide-lb-3.jpg]
+  - name: Small orange brushstroke moon jar
+    material: Porcelain
+    dimensions: 6" x 6"
+    images: [orange-vase-2.jpg, orange-vase-1.jpg]
+  - name: Mini orange brushstroke moon jar
+    material: Porcelain
+    dimensions: 4" x 4"
+    images: [mini-moon-jar-orange-1.jpg, mini-moon-jar-orange-2.jpg, mini-moon-jar-orange-3.jpg]
+  - name: Small brushstroke cup
+    material: Porcelain
+    dimensions: 4" x 3"
+    images: [blue-cup-1.jpg, blue-cup-2.jpg]
+
+- name: Shino
+  pieces:
+  - name: Saggar-fired shino cup
+    material: Porcelain
+    dimensions: 4" x 4"
+    images: [shino1b.jpg, shino2b.jpg]
+  - name: Shino Plate
+    material: Stoneware
+    dimensions: 8" x 8" # TODO
+    images: [shino-plate-1.jpg]
+  - name: Shino Jar
+    material: Stoneware
+    dimensions: 10" x 6" # TODO
+    images: [jar-1.jpg, jar-2.jpg]
+
+- name: Stoneware
+  pieces:
+  - name: Round bottle
+    material: Stoneware
+    dimensions: 9" x 8"
+    images: [round-bottle-1.jpg]
+  - name: Slipped Celadon vase
+    material: Stoneware
+    dimensions: 13" x 9"
+    images: [slipped-celadon-vase.jpg]
