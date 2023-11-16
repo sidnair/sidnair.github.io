@@ -2,21 +2,15 @@
 ---
 
 $text-color: #222;
-$secondary-text-color: #999;
 $tab-color: #000;
-$selected-tab-color: #5b90ce; // #ED633A;
-$link-hover-color: #6aa;
-$content-background-color: #fff;
-$divider-text-color: #fff;
-$divider-background-color: #5b90ce;
+$selected-tab-color: #5b90ce;
 
 $h1-font-size: 3.2rem;
-$h2-font-size: 2.4rem;
+$h2-font-size: 2.7rem;
 $default-font-size: 1.8rem;
 $small-font-size: 1.6rem;
 
 $small-spacing: 1rem;
-$large-spacing: 2.4rem;
 
 $piece-margin: 40px;
 
@@ -42,21 +36,6 @@ body {
   line-height: 1.4;
 }
 
-header {
-  h1 {
-    font-size: $h1-font-size;
-    padding: 20px;
-    margin: 0;
-    display: inline-block;
-  }
-
-  h2 {
-    font-weight: normal;
-    margin: 0;
-    display: inline-block;
-  }
-}
-
 p {
   margin: 0 0 $small-spacing;
 }
@@ -78,10 +57,25 @@ body {
   padding: 20px;
 }
 
-.tabs {
+header {
   display: flex;
   margin: 0 20px 30px;
   border-bottom: 3px solid black;
+
+  h1 {
+    font-size: $h1-font-size;
+    padding: 20px;
+    margin: 0;
+    display: inline-block;
+  }
+
+  h2 {
+    font-weight: normal;
+    font-size: $h2-font-size;
+    margin: 0;
+    display: inline-block;
+    padding: 20px;
+  }
 
   a, h2.artist {
     bottom: -3px;
@@ -90,11 +84,6 @@ body {
 
   h2.artist {
     margin-left: auto;
-  }
-
-  h2 {
-    margin: 0;
-    padding: 20px;
   }
 
   a {

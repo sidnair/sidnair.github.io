@@ -14,7 +14,7 @@
 <body>
   <div>
     <div>
-      <header class="tabs">
+      <header>
         <h1>Selected Work</h1>
         {%- for section in site.data.gallery_pieces -%}
           <a id="tab-{{ section.name | slugify }}" onClick="updateSectionVisibility('{{ section.name | slugify }}')"
