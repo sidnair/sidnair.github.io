@@ -18,12 +18,12 @@
         <h1>Selected Work</h1>
         {%- for section in site.data.gallery_pieces -%}
           <a id="tab-{{ section.name | slugify }}" onClick="updateSectionVisibility('{{ section.name | slugify }}')"
-             {% if forloop.first %}class="selected"{% endif %}
+             {% if forloop.first %}class="tab selected"{% else %}class="tab"{% endif %}
             >
             <h2>{{ section.name }}</h2>
           </a>
         {%- endfor -%}
-        <h2 class="artist">Sid Nair</h2>
+        <a href="/" class="artist"><h2>Sid Nair</h2></a>
       </header>
       <div class="pieces-wrapper">
         {% for section in site.data.gallery_pieces %}

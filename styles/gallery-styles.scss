@@ -4,6 +4,7 @@
 $text-color: #222;
 $tab-color: #000;
 $selected-tab-color: #5b90ce;
+$link-hover-color: #6aa;
 
 $h1-font-size: 3.2rem;
 $h2-font-size: 2.7rem;
@@ -77,16 +78,24 @@ header {
     padding: 20px;
   }
 
-  a, h2.artist {
+  a {
     bottom: -3px;
     position: relative;
   }
 
-  h2.artist {
+  a.artist {
     margin-left: auto;
+
+    &, &:visited {
+      color: $tab-color;
+      text-decoration: none;
+      &:hover {
+        color: $link-hover-color;
+      }
+    }
   }
 
-  a {
+  a.tab {
     color: $tab-color;
     display: inline-block;
 
