@@ -37,12 +37,12 @@
     images: [shino1b.jpg, shino2b.jpg]
   - name: Shino Plate
     material: Stoneware
-    dimensions: 8" x 8" # TODO
+    dimensions: 8" x 8" # TODO: confirm
     images: [shino-plate-1.jpg]
   - name: Shino Jar
     material: Stoneware
-    dimensions: 10" x 6" # TODO
-    images: [jar-1.jpg, jar-2.jpg]
+    dimensions: 10" x 6" # TODO: confirm
+    images: [jar-1.jpg]
 
 - name: Stoneware
   pieces:
