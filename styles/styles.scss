@@ -58,6 +58,13 @@ p {
   margin: 0 0 $small-spacing;
 }
 
+p.links{
+  font-size: $small-font-size;
+  a:first-child {
+    font-size: $default-font-size;
+  }
+}
+
 ol {
   margin: 0;
 
@@ -114,7 +121,7 @@ html {
     width: 100%;
   }
 
-  .roles {
+  .resume {
     font-size: $small-font-size;
   }
 
