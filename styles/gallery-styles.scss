@@ -31,6 +31,7 @@ html {
 }
 
 body {
+  background: #fff;
   color: $text-color;
   font-family: 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
   font-size: $default-font-size;
@@ -62,6 +63,9 @@ header {
   display: flex;
   margin: 0 20px 30px;
   border-bottom: 3px solid black;
+  background: #fff;
+  position: sticky;
+  top: 0;
 
   h1 {
     font-size: $h1-font-size;
@@ -95,6 +99,12 @@ header {
     }
   }
 
+  @media (max-width: 1100px) {
+    a.artist {
+      display: none;
+    }
+  }
+
   a.tab {
     color: $tab-color;
     display: inline-block;
@@ -109,7 +119,7 @@ header {
 
     &.selected {
       color: $selected-tab-color;
-      border-bottom: 3px solid $selected-tab-color;
+      border-bottom: 6px solid $selected-tab-color;
     }
   }
 }
